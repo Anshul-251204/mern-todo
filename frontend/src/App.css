@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main {
+	width: 50%;
+	margin: 0 auto;
+}
+h2 {
+	text-align: center;
+}
+input {
+	outline: none;
+	border: none;
+	border-bottom: 1px solid black;
+	padding: 1rem;
+	margin: 1rem;
+	width: 100%;
+	font-size: 1.5rem;
+}
+
+.todo {
+	background-color: #35066f;
+	width: 100%;
+  padding: 1rem;
+	border-radius: 1rem;
+	margin: 1rem;
+	color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+	font-size: 2rem;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  padding: 0 1rem;
+}
+.green{
+  	background-color: green;
+	width: 100%;
+  padding: 1rem;
+	border-radius: 1rem;
+	margin: 1rem;
+	color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+
+}
